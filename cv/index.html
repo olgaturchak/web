@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме програміста</title>
+    <style>
+        * {
+            font-family: 'Montserrat', sans-serif;
+
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .resume-container {
+            display: flex;
+        }
+
+        .blue-panel {
+            background-color: #1E2939;
+            color: white;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .blue-panel img {
+            width: 100%;
+            height: 370px;
+        }
+        .left__block {
+            margin-top: 20px;
+            padding-left: 40px;
+        }
+        .contact {
+            margin-top: 8px;
+            display: flex;
+        }
+        .left__title {
+            font-weight: 700;
+            font-size: 22px;
+            padding-top: 30px;
+            color: #ffff;
+        }
+        .contact__name {
+            font-weight: 700;
+            font-size: 1rem;
+            margin-right: 7px;
+        }
+        .contact__text {
+            font-size: 1rem;
+            color: #5c5b5b;
+        }
+        .skill {
+            padding-left: 15px;
+            font-size: 1rem;
+            position: relative;
+            margin-top: 15px;
+        }
+        .skill::before {
+            content: '·';
+            color: #FB6D3A;
+            position: absolute;
+            top: -10px;
+            left: 0;
+            font-size: 30px;
+        }
+        .black{
+            color: #595959;
+        }
+        .main_information {
+            width: 500px;
+        }
+        .rigth__title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #000000;
+            margin-bottom: 16px;
+            margin-top: 40px;
+        }
+        .resume-content {
+            flex: 2;
+            padding: 60px 100px 60px 60px;
+        }
+        .profession {
+            color: #000000;
+            font-weight: 800;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .project {
+            display: flex;
+            margin-top: 8px;
+
+        }
+        .num {
+            font-weight: 700;
+            margin-right: 8px;
+            color: #000000;
+        }
+        .project__link {
+            color: #595959;
+            width: 700px;
+        }
+        .rigth__block {
+            width: 600px;
+        }
+
+        h1 {
+            font-size: 45px;
+            margin-bottom: 0;
+        }
+        .description{
+            width: 500px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            color: #595959;
+        }
+        .orange{
+            color: #FB6D3A;
+        }
+    </style>
+</head>
+<body>
+<div class="resume-container">
+    <div class="blue-panel">
+        <img src="img/main_photo.jpg" alt="Фото">
+        <div class="left__block">
+            <div class="left__title">Contacts</div>
+            <div class="contact">
+                <div class="contact__name phone">C:</div>
+                <a class="contact__text ">+380 95 094 02 89</a>
+            </div>
+            <div class="contact">
+                <div class="contact__name">E:</div>
+                <a href="olgaturchak14@gmail.com" class="contact__text ">olgaturchak14@gmail.com</a>
+            </div>
+
+
+        </div>
+        <div class="left__block">
+            <div class="left__title">Tech skills</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">C#</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Node.JS</div>
+            <div class="skill">Express</div>
+            <div class="skill">Java</div>
+            <div class="skill">Python</div>
+            <div class="skill">Git</div>
+            <div class="skill">DSA</div>
+            <div class="skill">WebDesign</div>
+        </div>
+        <div class="left__block">
+            <div class="left__title">Environments</div>
+            <div class="skill">Visual Studio Code</div>
+            <div class="skill">WebStorm</div>
+            <div class="skill">Figma</div>
+            <div class="skill">Git</div>
+        </div>
+    </div>
+    <div class="resume-content">
+        <div class="main_information">
+        <div class="profession">Front-End Developer</div>
+
+        <h1>Olga Turchak</h1>
+
+        <p class="description">Programmer with more than 5 years of experience in software development. I specialize in Python and JavaScript programming languages. I have experience in developing web applications, and I am also able to solve complex tasks and work in a team.</p>
+    </div>
+
+        <div class="rigth__block">
+            <div class="rigth__title">Projects</div>
+            <div class="project">
+                <span class="num">1.</span><a class="project__link" href="https://github.com/olgaturchak/Dijkstra_alg/" style=" text-decoration: underline; cursor: pointer;"> https://github.com/olgaturchak/Dijkstra_alg/</a>
+            </div>
+            <div class="project">
+                <span class="num">2.</span><a class="project__link" href="https://github.com/olgaturchak/Degue_v2" style="text-decoration: underline; cursor: pointer;"> https://github.com/olgaturchak/Degue_v2/</a>
+            </div>
+            <div class="project">
+                <span class="num">3.</span><a class="project__link" href="https://github.com/olgaturchak/practicalTurchak" style="text-decoration: underline; cursor: pointer;"> https://github.com/olgaturchak/practicalTurchak</a>
+            </div>
+            <div class="project">
+                <span class="num">4.</span><a class="project__link" href="figma.com/file/x41RauYlVTwdgbGK4c1Dre/Untitled?type=design&node-id=0%3A1&mode=design&t=iUuNcBB1W4KgIhsR-1" style="text-decoration: underline; cursor: pointer;"> figma.com/file/x41RauYlVTwdgbGK4c1Dre/Untitled?type=design&node-id=0%3A1&mode=design&t=iUuNcBB1W4KgIhsR-1</a>
+            </div>
+            <div class="project">
+                <span class="num">5.</span><a class="project__link" href="https://github.com/olgaturchak/task1" style="text-decoration: underline; cursor: pointer;"> https://github.com/olgaturchak/task1</a>
+            </div>
+
+        </div>
+
+        <div class="rigth__title">Education</div>
+        <div class="profession orange">Military institute telecommunication and informatization named by Herro Krut</div>
+
+        <p><strong>Specialty -</strong> Computer science<br>It is a branch of knowledge that studies the theory and practical aspects of information processing, computing processes, algorithms, and software.</p>
+        <div class="rigth__title">Personal skills</div>
+        <div class="work">
+
+                <div class="skill black">Ability to work in a team and communication skill</div>
+                <div class="skill black">Using the Spring framework to develop the backend of applications</div>
+                <div class="skill black">Use of Handlebars and EJS templating technologies to create dynamic pages</div>
+                <div class="skill black">Development of client and server parts of web applications using Java, JavaScript and Node.js</div>
+                <div class="skill black">Designing and creating application designs using Figma</div>
+                <div class="skill black">Working with MySQL and MongoDB databases</div>
+                <div class="skill black">Willingness to learn and learn new technologies independently</div>
+
+        </div>
+
+
+            <div class="work">
+                <div class="rigth__title">Languages</div>
+                    <div class="skill black">English level: upper-intermediate</div>
+                    <div class="skill black">Ukainian level: - free</div>
+            </div>
+
+
+
+
+        </ul>
+    </div>
+</div>
+</body>
+</html>
